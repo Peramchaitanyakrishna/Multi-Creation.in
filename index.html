@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Creation.in - Owl Edition</title>
+    
+    <!-- FONT AWESOME FOR ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+    <!-- MODERN GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="home-page">
+        <header id="main-header">
+            <div class="container">
+                <h1 class="logo">Multi Creation.in</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a id="nav-login-btn"><button>Login / Sign Up</button></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="home">
+            <div class="home-content">
+                <h2 id="typewriter">Welcome to Multi Creation.in</h2>
+                <p class="fade-in">Your one-stop platform for professional picture and video editing.</p>
+                <a href="#contact" class="cta-button fade-in">Get Started</a>
+            </div>
+        </section>
+
+        <main>
+            <section id="services">
+                <div class="container">
+                    <h2 class="fade-in">Our Services</h2>
+                    <div class="service-cards">
+                        <div class="card fade-in-left tilt-card">
+                            <h3>Photo Editing</h3>
+                            <p>Professional photo enhancement and retouching services.</p>
+                        </div>
+                        <div class="card fade-in tilt-card">
+                            <h3>Video Editing</h3>
+                            <p>Creative video editing for personal and business projects.</p>
+                        </div>
+                        <div class="card fade-in-right tilt-card">
+                            <h3>Arts</h3>
+                            <p>Custom digital art and graphic design services.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="about">
+                <div class="container fade-in">
+                    <h2>About Us</h2>
+                    <p>Multicreation.in is a freelancing company dedicated to providing top-tier multimedia services. 
+                        Trust us to edit your pictures and videos with the utmost confidentiality and professionalism—we guarantee your privacy.</p>
+                </div>
+            </section>
+            
+            <section id="contact">
+                <div class="container fade-in">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Multi Creation.in. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Login & Signup Pages -->
+    <div id="login-page" class="page hidden">
+        <div class="auth-container">
+            <h2>Multicreation</h2><h1>Login</h1>
+            <form class="your-input">
+                <div class="input"><input type="email" id="login-email" placeholder="Email" required /></div>
+                <div class="input"><input type="password" id="login-password" placeholder="Password" required /></div>
+                <button type="button" id="login-submit-btn">Login</button>
+            </form>
+            <p class="auth-link">New to Multicreation? <a id="show-signup-btn">Join now</a></p>
+        </div>
+    </div>
+    <div id="signup-page" class="page hidden">
+        <div class="auth-container">
+            <h2>Multicreation</h2><h1>Create Account</h1>
+            <form class="your-input">
+                <div class="input"><input type="email" id="signup-email" placeholder="Email" required /></div>
+                <div class="input"><input type="password" id="signup-password" placeholder="Password" required /></div>
+                <button type="submit">Create Account</button>
+            </form>
+            <p class="auth-link">Already have an account? <a id="show-login-btn">Login</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
