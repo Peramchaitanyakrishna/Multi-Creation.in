@@ -107,8 +107,7 @@
         .page {
             display: flex; justify-content: center; align-items: center;
             min-height: 100vh;
-            background: url('Assets\9070086.webp') no-repeat center center/cover;
-                background-image: url('Assets/9070086.webp');
+            background-image: url('Assets/9070086.webp');
             padding: 20px;
         }
         .auth-container {
@@ -149,3 +148,4 @@
             .service-cards .card { width: 100%; margin-bottom: 20px; }
 
         }
+
